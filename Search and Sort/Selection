@@ -1,0 +1,15 @@
+def Sele(list):
+    
+    for i in range(0,len(list)):
+        posi=i
+        for j in range(i,len(list)):
+            if list[j] < list[posi]:
+                posi = j
+            
+        list[i],list[posi]=list[posi],list[i]
+        print(list)    
+    print(list)
+
+
+list = [45,61,45,35,87,92,84,27,39]
+Sele(list)

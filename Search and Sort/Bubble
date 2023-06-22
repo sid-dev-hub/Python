@@ -1,0 +1,14 @@
+
+
+def Bubb(list):
+    
+    for i in range(0,len(list)):
+        for j in range(i):
+            if list[i] < list[j]:
+                list[i],list[j]=list[j],list[i]
+        
+    
+    print(list)
+
+list = [45,61,45,35,87,92,84,27,39]
+Bubb(list)

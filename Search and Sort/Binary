@@ -1,0 +1,25 @@
+
+
+def binary(list,n):
+    l = 0
+    u = len(list)-1
+    
+    for i in range (0,len(list)):
+
+        mid = (l+u)//2
+        if list[mid]==n:
+            print("Found at ",mid+1)
+            return
+        elif list[mid]< n:
+            l = mid
+        else:
+            u = mid   
+    return False 
+
+list = [3,4,1,8,9,5,7,6,2]
+list.sort(reverse=False)
+print(list)
+n = int(input("Enter the number to search "))
+s = binary(list,n)
+if s==False:
+    print("Not found")
