@@ -1,5 +1,4 @@
 
-
 def fibo(n):
         print("Inside Fibo", __name__)
         p1 = 0
