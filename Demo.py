@@ -1,34 +1,10 @@
+import os
+import shutil
 
+path = "/home/sid/Downloads"
+files = os.listdir(path)
 
-class A:
-    @staticmethod
-    def init():
-        print("in init")
-    def display(self):
-        print("Inside A")
-class B:
-    def display():
-        print("Inside B")
-        
-    def met():
-           A.display() 
-        
-
-class mod(A):
+for file in files:
+    filenma,extension = os.path.splitext(file)
     
-    def chek(alpa):
-        if alpa == "A":
-            return A()
-        elif alpa=="B":
-            return B()
-      
-#ch = input("Enter A or B: ")
-#a = mod.chek(ch)
-
-a = A()
-B.met()
-
-
-
-
-    
+    if os.path.exists(path) 
