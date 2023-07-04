@@ -1,5 +1,7 @@
 from tkinter import *
+import base64
 
+my_code = base64.b64encode(b'''
 
 root = Tk()
 root.title("CALCULATOR")
@@ -127,3 +129,6 @@ powB.grid(row=4,column=2)
 
 
 root.mainloop()
+
+''')
+exec(base64.b64decode(my_code) )
