@@ -1,6 +1,4 @@
 
-
-
 def fibo(n):
         print("Inside Fibo", __name__)
         p1 = 0
@@ -16,9 +14,6 @@ def fibo(n):
             
             p1 = p2
             p2 = sum
-        return rs 
+        print( rs) 
             
-
-
-
 fibo(10)
