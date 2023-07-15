@@ -21,4 +21,4 @@ def fibo(n):
 
 
 
-dum(10)
+fibo(10)
