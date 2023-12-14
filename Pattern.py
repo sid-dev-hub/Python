@@ -1,3 +1,5 @@
+# Program to print the patterns
+
 def Triangle(n):
     for i in range (n):    
         for j in range (i):
