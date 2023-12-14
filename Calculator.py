@@ -1,3 +1,5 @@
+# Calculator app using Python and Tkinter
+
 from tkinter import *
 import base64
 
